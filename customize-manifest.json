@@ -1,0 +1,12 @@
+{
+  "app": {
+    "desktop": {
+      "js": ["./src/zipcode.js"],
+      "css": ["./src/style.css"]
+    },
+    "mobile": {
+      "js": [],
+      "css": []
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "kintone-zipcode",
+  "version": "1.0.0",
+  "description": "Kintone zipcode lookup customization",
+  "scripts": {
+    "push": "kintone-customize-uploader --base-url $KINTONE_BASE_URL --username $KINTONE_USERNAME --password $KINTONE_PASSWORD --app-id $KINTONE_APP_ID --manifest customize-manifest.json",
+    "watch": "kintone-customize-uploader --base-url $KINTONE_BASE_URL --username $KINTONE_USERNAME --password $KINTONE_PASSWORD --app-id $KINTONE_APP_ID --manifest customize-manifest.json --watch"
+  },
+  "devDependencies": {
+    "@kintone/customize-uploader": "^6"
+  },
+  "keywords": [
+    "kintone",
+    "zipcode"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,28 @@
+/**
+ * Kintone 郵便番号検索カスタマイズ - スタイル
+ */
+
+.zipcode-search-btn {
+  margin-left: 10px;
+  padding: 6px 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.zipcode-search-btn:hover {
+  background-color: #2980b9;
+}
+
+.zipcode-search-btn:active {
+  background-color: #1f6a9c;
+}
+
+.zipcode-search-btn:disabled {
+  background-color: #95a5a6;
+  cursor: not-allowed;
+}
