@@ -7,8 +7,7 @@ require('dotenv').config();
 
 // 環境変数から設定を取得
 const baseUrl = process.env.KINTONE_BASE_URL;
-const username = process.env.KINTONE_USERNAME;
-const password = process.env.KINTONE_PASSWORD;
+const apiToken = process.env.KINTONE_API_TOKEN;
 const appId = process.env.KINTONE_APP_ID;
 
 // 必要なフィールドの定義
@@ -42,8 +41,7 @@ async function setupFields() {
   const client = new KintoneRestAPIClient({
     baseUrl: baseUrl,
     auth: {
-      username: username,
-      password: password,
+      apiToken: apiToken,
     },
   });
 
